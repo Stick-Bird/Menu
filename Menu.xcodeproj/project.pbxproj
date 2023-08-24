@@ -12,7 +12,6 @@
 		CE942EC72A929CE80097FBCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE942EC62A929CE80097FBCB /* Assets.xcassets */; };
 		CE942ECA2A929CE80097FBCB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE942EC92A929CE80097FBCB /* Preview Assets.xcassets */; };
 		CED1FE562A9439D300629022 /* MenuItem .swift in Sources */ = {isa = PBXBuildFile; fileRef = CED1FE552A9439D300629022 /* MenuItem .swift */; };
-		CED1FE5A2A943AF200629022 /* MenuCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED1FE592A943AF200629022 /* MenuCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +21,6 @@
 		CE942EC62A929CE80097FBCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE942EC92A929CE80097FBCB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CED1FE552A9439D300629022 /* MenuItem .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MenuItem .swift"; sourceTree = "<group>"; };
-		CED1FE592A943AF200629022 /* MenuCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				CE942EC42A929CE70097FBCB /* MenuView.swift */,
-				CED1FE592A943AF200629022 /* MenuCard.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -175,7 +172,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CED1FE5A2A943AF200629022 /* MenuCard.swift in Sources */,
 				CE942EC52A929CE70097FBCB /* MenuView.swift in Sources */,
 				CE942EC32A929CE70097FBCB /* MenuApp.swift in Sources */,
 				CED1FE562A9439D300629022 /* MenuItem .swift in Sources */,

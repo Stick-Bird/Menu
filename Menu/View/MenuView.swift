@@ -11,7 +11,7 @@ struct MenuView: View {
     
     var body: some View {
         
-        var menuItems: [MenuItem] = [MenuItem(name: "Onigiri", price: "1.99", imageName: "onigiri"),
+        let menuItems: [MenuItem] = [MenuItem(name: "Onigiri", price: "1.99", imageName: "onigiri"),
                                      MenuItem(name: "Meguro Sushi", price: "5.99", imageName: "meguro-sushi"),
                                      MenuItem(name: "Tako Sushi", price: "4.99", imageName: "tako-sushi"),
                                      MenuItem(name: "Avocado Maki", price: "2.99", imageName: "avocado-maki"),
@@ -24,13 +24,30 @@ struct MenuView: View {
                                      MenuItem(name: "Shrimp Sushi", price: "3.99", imageName: "shrimp-sushi"),
                                      MenuItem(name: "Ikura Sushi", price: "5.99", imageName: "ikura-sushi")]
         
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        List (menuItems) { items in
+            
+         
+                
+                HStack {
+                    
+                    Image (items.imageName)
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(height: 50)
+                        .cornerRadius(10)
+                        
+                    Text (items.name)
+                        .bold()
+                    
+                    Spacer()
+                    
+                    Text ("$" + items.price)
+                  
+                }
+                .listRowSeparator(.hidden)
+                .listRowBackground(Color(.brown).opacity(0.1))
         }
-        .padding()
+        .listStyle(.plain)
         
     }
 }
