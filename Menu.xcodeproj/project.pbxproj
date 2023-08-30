@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CE086A4E2A9E0C68007668F6 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE086A4D2A9E0C68007668F6 /* DataService.swift */; };
+		CE73F03B2A9F628C007C2457 /* MenuListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE73F03A2A9F628C007C2457 /* MenuListRow.swift */; };
 		CE942EC32A929CE70097FBCB /* MenuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE942EC22A929CE70097FBCB /* MenuApp.swift */; };
 		CE942EC52A929CE70097FBCB /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE942EC42A929CE70097FBCB /* MenuView.swift */; };
 		CE942EC72A929CE80097FBCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE942EC62A929CE80097FBCB /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		CE086A4D2A9E0C68007668F6 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		CE73F03A2A9F628C007C2457 /* MenuListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListRow.swift; sourceTree = "<group>"; };
 		CE942EBF2A929CE70097FBCB /* Menu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Menu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE942EC22A929CE70097FBCB /* MenuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuApp.swift; sourceTree = "<group>"; };
 		CE942EC42A929CE70097FBCB /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				CE942EC42A929CE70097FBCB /* MenuView.swift */,
+				CE73F03A2A9F628C007C2457 /* MenuListRow.swift */,
 				CE086A4D2A9E0C68007668F6 /* DataService.swift */,
 			);
 			path = View;
@@ -178,6 +181,7 @@
 				CE942EC52A929CE70097FBCB /* MenuView.swift in Sources */,
 				CE942EC32A929CE70097FBCB /* MenuApp.swift in Sources */,
 				CED1FE562A9439D300629022 /* MenuItem .swift in Sources */,
+				CE73F03B2A9F628C007C2457 /* MenuListRow.swift in Sources */,
 				CE086A4E2A9E0C68007668F6 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
